@@ -1,3 +1,5 @@
+import './instrumentation';
+
 import { SpanStatusCode, trace } from '@opentelemetry/api';
 import express, { Express, ErrorRequestHandler } from 'express';
 import { rollTheDice } from './dice';
